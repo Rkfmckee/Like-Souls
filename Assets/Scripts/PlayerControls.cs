@@ -40,7 +40,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""name"": ""Camera"",
                     ""type"": ""PassThrough"",
                     ""id"": ""f2faf245-4aa9-4c2a-bddc-17e3c62abbfc"",
-                    ""expectedControlType"": ""Stick"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -116,7 +116,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""de66def5-1241-4e22-b521-790042bbc528"",
-                    ""path"": ""Delta [Mouse]"",
+                    ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": ""NormalizeVector2"",
                     ""groups"": """",
